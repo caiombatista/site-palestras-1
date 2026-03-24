@@ -411,9 +411,7 @@ blockquote {
 }
 
 .quick-links {
-  padding: 14px 0;
-  border-top: 1px solid var(--rule-soft);
-  border-bottom: 1px solid var(--rule-soft);
+  display: none;
 }
 
 .external-link::after {
