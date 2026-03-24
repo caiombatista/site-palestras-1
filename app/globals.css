@@ -329,15 +329,20 @@ blockquote {
 }
 
 .hero-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  display: grid;
+  gap: 8px;
   margin: 28px 0 0;
-  padding: 0;
-  list-style: none;
+  padding-left: 22px;
+  list-style: disc;
 }
 
-.hero-highlights li,
+.hero-highlights li {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.7;
+  padding-left: 2px;
+}
+
 .pill {
   display: inline-flex;
   align-items: center;
