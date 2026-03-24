@@ -1,0 +1,57 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" rx="48" fill="url(#bg)"/>
+  <g opacity="0.7">
+    <circle cx="357" cy="344" r="180" fill="url(#glow1)"/>
+    <circle cx="422" cy="284" r="124" fill="url(#glow2)"/>
+    <circle cx="290" cy="430" r="122" fill="url(#glow3)"/>
+  </g>
+  <g opacity="0.45" stroke="url(#line)" stroke-width="1.2">
+    <path d="M110 159H611"/>
+    <path d="M110 229H611"/>
+    <path d="M110 299H611"/>
+    <path d="M110 369H611"/>
+    <path d="M110 439H611"/>
+    <path d="M110 509H611"/>
+    <path d="M159 110V611"/>
+    <path d="M229 110V611"/>
+    <path d="M299 110V611"/>
+    <path d="M369 110V611"/>
+    <path d="M439 110V611"/>
+    <path d="M509 110V611"/>
+  </g>
+  <g filter="url(#f)">
+    <path d="M242 394C272 291 383 226 485 253C560 273 598 358 559 426C515 504 419 553 330 537C262 524 224 456 242 394Z" fill="url(#shape)"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="56" y1="48" x2="660" y2="689" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D142B"/>
+      <stop offset="1" stop-color="#060816"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(357 344) rotate(90) scale(180)">
+      <stop stop-color="#39A6FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#39A6FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(422 284) rotate(90) scale(124)">
+      <stop stop-color="#68F0FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#68F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(290 430) rotate(90) scale(122)">
+      <stop stop-color="#FF7A18" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FF7A18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="110" y1="110" x2="611" y2="611" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68F0FF"/>
+      <stop offset="1" stop-color="#FF7A18"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="260" y1="276" x2="549" y2="516" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39A6FF"/>
+      <stop offset="0.55" stop-color="#10264C"/>
+      <stop offset="1" stop-color="#FF7A18"/>
+    </linearGradient>
+    <filter id="f" x="195.7" y="211.2" width="411.4" height="373.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_0_1"/>
+    </filter>
+  </defs>
+</svg>
