@@ -27,3 +27,7 @@ npm run dev
 npm run build
 npm start
 ```
+
+## Observacao
+
+Repositorio conectado ao fluxo GitHub + Vercel para deploy automatico.
