@@ -97,6 +97,9 @@ export default function Home() {
               <a className="button button-secondary" href="#palestras">
                 {siteContent.hero.secondaryCta}
               </a>
+              <a className="button button-secondary" href="#formatos">
+                Ver produtos
+              </a>
             </div>
 
             <div className="quick-links">
