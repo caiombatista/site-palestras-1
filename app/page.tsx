@@ -209,6 +209,14 @@ export default function Home() {
               <div className="contact-actions">
                 <a
                   className="text-link external-link contact-social-link"
+                  href={siteContent.contact.whatsapp}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  WhatsApp
+                </a>
+                <a
+                  className="text-link external-link contact-social-link"
                   href={siteContent.contact.linkedin}
                   target="_blank"
                   rel="noreferrer"

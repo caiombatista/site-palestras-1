@@ -6,6 +6,7 @@ export const siteContent = {
   contact: {
     email: "caiombatista@gmail.com",
     phone: "",
+    whatsapp: "https://wa.me/qr/IHJODNCSXNBKC1",
     linkedin:
       "https://www.linkedin.com/in/caiomagalh%C3%A3esbatista?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BCcwOAcNLTkexlyVg9emMdw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
     instagram: "https://www.instagram.com/caiombatista/"
